@@ -1,1 +1,1 @@
-# typescript-pokeapi
+# Projeto em typescript usando a PokeAPI
