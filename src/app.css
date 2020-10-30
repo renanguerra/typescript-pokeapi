@@ -1,0 +1,16 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+
+.main{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main input{
+    margin-top: 10px ;
+    margin-right: 10px;
+    
+
+}
