@@ -25,7 +25,10 @@ const getPokemon = () => {
    setPokeheight(res.data.height)
    setPokeweight(res.data.weight)
   })
-  .catch((e)=>{console.log(e)})
+  .catch((e)=>{
+    console.log(e)
+    alert('Verifique se o nome do pokemon está correto.')
+  })
 }
 
   return (
