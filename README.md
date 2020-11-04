@@ -2,7 +2,7 @@
 
 Uma aplicação usando a PokeAPI feita com a intenção de estudar Typescript 💜 
 
-![buscabynome](https://user-images.githubusercontent.com/53278938/97652949-659cc700-1a3e-11eb-92c7-27c653efb096.png)
+![tela](https://user-images.githubusercontent.com/53278938/98060037-63b07a80-1e27-11eb-9765-98214ad8c229.png)
 
 ## 🚀 Tecnologias
 
