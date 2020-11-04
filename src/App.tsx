@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
-import Header from './components/Header/index'
-import Footer from './components/Footer/index'
 import Card from './components/Card/index'
 import axios from 'axios'
+
 
 import './app.css'
 
@@ -33,17 +32,20 @@ const getPokemon = () => {
 
   return (
     <div className="App">
-      <Header/>
 
-      <div className="main">
+      <div className="lateral">
+        <img className='logo' src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi.svg?sanitize=true" alt="logo"/>
+        
+        <div className="main">
           <h2 className='text-logo'>Digite o Nome do pokemon</h2>
           <input onChange={(e)=>{setPokemon(e.target.value)}} type="text" id='inputname' className="inputname" placeholder='Digite o nome aqui'/>
           <button onClick={() => getPokemon()}>Enviar</button>
+        </div>
+      
       </div>
 
       <Card name={pokename} img={pokeimg} height={pokeheight} weight={pokeweight}/>  
 
-      <Footer/>
     </div>
   );
 }

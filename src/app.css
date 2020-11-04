@@ -1,16 +1,32 @@
 *{
     margin: 0 ;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.App{
+    display: flex;
+    text-align: center;
+}
+
+
+.logo{
+    width: 250px;
+}
+
+.lateral{
+background-color: #b65a30;
+width: 40%;
+height: 100vh;
 }
 
 .main{
-    text-align: center;
-    margin-top: 20px;
+    margin-top: 20vh;
 }
-
+.text-logo{
+    color: white;
+}
 .main input{
     margin-top: 10px ;
     margin-right: 10px;
-    
-
 }
