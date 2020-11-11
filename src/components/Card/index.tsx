@@ -4,8 +4,8 @@ import './card.css'
 interface CardProps {
     name: string;
     img: string;
-    height: string;
-    weight: string;
+    xp: string;
+    type: string;
 
 }
 
@@ -18,8 +18,8 @@ const Card: React.FC<CardProps> = (props) => {
 
         <div className="body-card">
             <h2>Nome: {props.name}</h2>
-            <h2>Altura: {props.height}</h2>
-            <h2>Peso: {props.weight}</h2>
+            <h2>Xp inicial: {props.xp} pontos</h2>
+            <h2>Tipo: {props.type}</h2>
 
         </div>
     </div>
