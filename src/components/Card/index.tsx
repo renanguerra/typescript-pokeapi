@@ -9,6 +9,25 @@ interface CardProps {
 
 }
 
+interface RenderCard {
+    show: boolean;
+    name: string;
+    img: string;
+    xp: string;
+    type: string;
+
+}
+
+const renderCard: React.FC<RenderCard> = (props)=> {
+    const showCard = props.show;
+    if (showCard){
+        return <Card name={props.name} img={props.img} xp={props.xp} type={props.type}/>
+    }
+    else {
+        return <p></p>
+    }
+    
+}
 const Card: React.FC<CardProps> = (props) => {
     return(
     <div className="card">
@@ -26,4 +45,4 @@ const Card: React.FC<CardProps> = (props) => {
     )
 }
 
-export default Card;
+export default renderCard;

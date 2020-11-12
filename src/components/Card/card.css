@@ -7,7 +7,12 @@
     min-width: 400px;
 
 }
-
+.text-inicial{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 40vh;
+}
 @media(max-width:600px){
     .card{
         text-align: center;

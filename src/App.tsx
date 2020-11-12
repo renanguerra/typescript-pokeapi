@@ -12,6 +12,7 @@ const [pokename,setPokename] = useState('')
 const [pokeimg,setPokeimg] = useState('')
 const [pokexp,setPokexp] = useState('')
 const [poketype,setPoketype] = useState('')
+const [show,setShow] = useState(Boolean)
 
 const getPokemon = () => {
 
@@ -23,6 +24,7 @@ const getPokemon = () => {
    setPokeimg(res.data.sprites.front_default)
    setPokexp(res.data.base_experience)
    setPoketype(res.data.types[0].type.name)
+   setShow(true)
    console.log(res.data)
   })
   .catch((e)=>{
@@ -45,7 +47,7 @@ const getPokemon = () => {
       
       </div>
 
-      <Card name={pokename} img={pokeimg} xp={pokexp} type={poketype}/>  
+      <Card show={show} name={pokename} img={pokeimg} xp={pokexp} type={poketype}/>  
 
     </div>
   );
