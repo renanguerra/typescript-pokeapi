@@ -1,24 +1,37 @@
-.card{
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 30vh;
-}
-.pokeimg {
-    min-width: 400px;
 
-}
-.text-inicial{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-left: 40vh;
-}
-@media(max-width:600px){
+
+@media (min-width:320px) { 
     .card{
         text-align: center;
+        margin-top:220px;
     }
     .pokeimg {
         min-width: 200px;
-    
+
     }
 }
+
+@media (min-width:600px) {
+    .card{
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 5vh;
+    }
+    .pokeimg {
+        min-width: 400px;
+
+    }
+}
+
+
+@media (min-width:1281px) { 
+    .card{
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 30vh;
+    }
+    .pokeimg {
+        min-width: 400px;
+
+    }
+} 
