@@ -2,6 +2,8 @@
 
 Uma aplicação usando a PokeAPI feita com a intenção de estudar Typescript 💜 
 
+Link para demonstração: https://poketypescript.netlify.app/
+
 ![tela](https://user-images.githubusercontent.com/53278938/98060037-63b07a80-1e27-11eb-9765-98214ad8c229.png)
 
 ## 🚀 Tecnologias
