@@ -1,6 +1,6 @@
 ## 💻 Projeto
 
-Uma aplicação usando a PokeAPI feita com a intenção de estudar Typescript 💜 
+Uma aplicação usando a PokeAPI feita com a intenção de estudar Typescript.
 
 Link para demonstração: https://poketypescript.netlify.app/
 
